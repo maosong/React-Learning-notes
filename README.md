@@ -6,8 +6,14 @@
 
 ## 目录
 
+- [利器nvm](nvm.md)
+- [安装React](install.md)
+- [经典的Hello World](hello-world.md)
+
 ## 文章资源
 
+- [在 2016 年学 JavaScript 是一种什么样的体验？](https://www.oschina.net/news/77853/how-about-learn-javascript-at-2016)
+- [使用 nvm 管理不同版本的 node 与 npm](http://www.tuicool.com/articles/Vzquy2)
 - [使用nvm利器，管理node版本](http://www.cnblogs.com/kongxianghai/p/5660101.html)
 - [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [React 安装](http://www.runoob.com/react/react-install.html)
