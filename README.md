@@ -8,6 +8,7 @@
 
 - [nvm - node版本管理工具](nvm.md)
 - [Babel - 转码器](babel.md)
+- [Webpack - 模块化管理和打包工具](webpack.md)
 
 ## 文章资源
 
