@@ -1,4 +1,4 @@
-# 利器 nvm
+# nvm - node版本管理工具
 
 nvm是node版本管理工具，是一套独立于node/npm的外部shell脚本。类似于virtualenv或rvm。主要特点：
 
