@@ -1,6 +1,6 @@
 # 利器 nvm
 
-nvm是node版本管理工具，类似python的virtualenv和ruby的rvm。主要特点：
+nvm是node版本管理工具，是一套独立于node/npm的外部shell脚本。类似于virtualenv或rvm。主要特点：
 
 1. 可安装多版本的node。
 2. 灵活切换当前的node版本。
@@ -14,13 +14,13 @@ nvm是node版本管理工具，类似python的virtualenv和ruby的rvm。主要�
 安装 nvm 之后最好先删除下已安装的 node 和全局 node 模块：
 
 ```sh
-npm ls -g --depth=0 #查看已经安装在全局的模块，以便删除这些全局模块后再按照不同的 node 版本重新进行全局安装
+$ npm ls -g --depth=0 #查看已经安装在全局的模块，以便删除这些全局模块后再按照不同的 node 版本重新进行全局安装
 
-sudo rm -rf /usr/local/lib/node_modules #删除全局 node_modules 目录
+$ sudo rm -rf /usr/local/lib/node_modules #删除全局 node_modules 目录
 
-sudo rm /usr/local/bin/node #删除 node
+$ sudo rm /usr/local/bin/node #删除 node
 
-cd  /usr/local/bin && ls -l | grep "../lib/node_modules/" | awk '{print $9}'| xargs rm #删除全局 node 模块注册的软链
+$ cd  /usr/local/bin && ls -l | grep "../lib/node_modules/" | awk '{print $9}'| xargs rm #删除全局 node 模块注册的软链
 ```
 
 ## 安装 nvm
@@ -28,13 +28,13 @@ cd  /usr/local/bin && ls -l | grep "../lib/node_modules/" | awk '{print $9}'| xa
 官网推荐的两种安装方式
 
 ```sh
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 ```
 
 或者:
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 ```
 
 安装器会在~/.bashrc文件中自动增加以下代码：
@@ -46,7 +46,7 @@ export NVM_DIR="$HOME/.nvm"
 
 我们需要创建`~/.bash_profile`文件（如果不存在），并在尾部加入以下代码：
 
-```
+```sh
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node; # nvm 加速
 alias cnpm="npm --registry=https://registry.npm.taobao.org \
 --cache=$HOME/.npm/.cache/cnpm \
@@ -55,40 +55,41 @@ alias cnpm="npm --registry=https://registry.npm.taobao.org \
 source ~/.bashrc;
 ```
 
-重新打开终端执行以下命令验证安装：
+现在`重新打开终端`执行以下命令验证安装：
 
 ```sh
-command -v nvm
+$ command -v nvm
+nvm
 ```
 
 ## 安装 node
 
 ```sh
-nvm install stable # 安装最新稳定版
-nvm current # 查看当前node版本
-node -v
+$ nvm install stable # 安装最新稳定版
+$ nvm current # 查看当前node版本
+$ node -v
 ```
 
 **以下是nvm常用命令**
 
 ```sh
 # all node's versions
-nvm ls
+$ nvm ls
 
 # Install a specific version number
-nvm install v0.10.32
+$ nvm install v0.10.32
 
 # Use the latest available 0.10.x release
-nvm use 0.10
+$ nvm use 0.10
 
 # Run app.js using node v0.10.32
-nvm run 0.10.32 app.js
+$ nvm run 0.10.32 app.js
 
 # Run `node app.js` with the PATH pointing to node v0.10.32
-nvm exec 0.10.32 node app.js
+$ nvm exec 0.10.32 node app.js
 
 # Set default node version on a shell
-nvm alias default 0.10.32
+$ nvm alias default 0.10.32
 ```
 
 ## 使用cnpm安装第三方库
@@ -96,5 +97,5 @@ nvm alias default 0.10.32
 之前安装，我们在`~/.bash_profile`中加入淘宝`cnpm`源，现在可以像用`npm`一样使用它
 
 ```sh
-cnpm install -g express-generator
+$ cnpm install -g %library_name%
 ```
