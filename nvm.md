@@ -25,7 +25,7 @@ $ cd  /usr/local/bin && ls -l | grep "../lib/node_modules/" | awk '{print $9}'| 
 
 ## 安装 nvm
 
-官网推荐的两种安装方式
+官网推荐的两种安装方式（推荐`科学上网`，加快下载速度）
 
 ```sh
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
@@ -63,6 +63,8 @@ nvm
 ```
 
 ## 安装 node
+
+（如果上一步使用`科学上网`，现在可以关闭了）
 
 ```sh
 $ nvm install stable # 安装最新稳定版
