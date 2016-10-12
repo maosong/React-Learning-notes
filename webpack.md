@@ -11,7 +11,7 @@ Webpack 是当下最热门的前端资源模块化管理和打包工具。它可
 ```sh
 $ mkdir project
 $ cd project
-$ cnpm init
+$ npm init
 ```
 
 ### 2. 安装Webpack和loader

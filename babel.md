@@ -27,7 +27,7 @@ input.map(function (item) {
 ```sh
 $ mkdir project
 $ cd project
-$ cnpm init
+$ npm init
 ```
 
 ### 2. 安装转码器和转码规则
