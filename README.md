@@ -2,13 +2,18 @@
 
 本文记录我在学习React过程中遇到的问题，解决方案，以及一步步如何搭建和部署React应用，涵盖nvm、babel、webpack、gulp等多个知识点。
 
-编写本文之前我阅读过阮一峰的[ECMAScript 6入门](http://es6.ruanyifeng.com/)等文章，并编写了[ES6 学习不完全笔记](https://github.com/maosong/ES6-Learning-notes)，接触Node.js和ES6仅一周时间，它们与传统js开发差距巨大，因此本文难免会有各种疏漏或错误，敬请谅解。
+编写本文之前我阅读过阮一峰的[ECMAScript 6入门](http://es6.ruanyifeng.com/)等文章，并编写了[ES6 学习不完全笔记](https://github.com/maosong/ES6-Learning-notes)，接触Node.js和ES6仅一周时间，它们与传统js开发差距巨大，因此本文难免会有各种疏漏或错误，敬请谅解，也希望指正。
+
+> 强烈推荐吐槽版指引教程[在 2016 年学 JavaScript 是一种什么样的体验？](https://www.oschina.net/news/77853/how-about-learn-javascript-at-2016)
+>
+> ⚠️ 注意！本文所有命令行仅在`centos 6.5`和`ubuntu 14`和`osx`下测试通过！
 
 ## 目录
 
 - [nvm - node版本管理工具](nvm.md)
 - [Babel - 转码器](babel.md)
 - [Webpack - 模块化管理和打包工具](webpack.md)
+- [React - Hello World!](react_hello_world.md)
 
 ## 文章资源
 
