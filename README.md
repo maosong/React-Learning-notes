@@ -31,3 +31,4 @@
 - [一小时包教会 —— webpack 入门指南](http://www.w2bc.com/Article/50764)
 - [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [React 安装](http://www.runoob.com/react/react-install.html)
+- [深入理解React、Redux](http://www.jianshu.com/p/0e42799be566)
