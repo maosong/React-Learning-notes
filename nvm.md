@@ -1,13 +1,13 @@
 # nvm - node版本管理工具
 
+> 如果是需要管理 Windows 下的 node，官方推荐是使用 [nvmw](https://github.com/hakobera/nvmw) 或 [nvm-windows](https://github.com/coreybutler/nvm-windows)。
+
 nvm是node版本管理工具，是一套独立于node/npm的外部shell脚本。类似于virtualenv或rvm。主要特点：
 
 1. 可安装多版本的node。
 2. 灵活切换当前的node版本。
 3. 以沙箱方式全局安装第三方组件到对应版本的node中。
 4. 通过.vnmrc文件，方便灵活地指定各应用系统所需的node版本进行运行。
-
-> 如果是需要管理 Windows 下的 node，官方推荐是使用 [nvmw](https://github.com/hakobera/nvmw) 或 [nvm-windows](https://github.com/coreybutler/nvm-windows)。
 
 ## 卸载已安装到全局的 node/npm
 
