@@ -1,24 +1,20 @@
 # Babel 转码器
 
-Babel是一个广泛使用的转码器，可以将ES6代码转为ES5代码，从而在现有环境执行。
-
-这意味着，你可以现在就用ES6编写程序，而不用担心现有环境是否支持。下面是一个例子。
-
-```JavaScript
-// 转码前
-input.map(item => item + 1);
-
-// 转码后
-input.map(function (item) {
-  return item + 1;
-});
-```
-
-（上文摘自阮一峰的[Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)）
-
-强烈建议阅读本文前，首先阅读：
-
-- [Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+> Babel是一个广泛使用的转码器，可以将ES6代码转为ES5代码，从而在现有环境执行。
+>
+> 这意味着，你可以现在就用ES6编写程序，而不用担心现有环境是否支持。下面是一个例子。
+>
+> ```JavaScript
+> // 转码前
+> input.map(item => item + 1);
+>
+> // 转码后
+> input.map(function (item) {
+>   return item + 1;
+> });
+> ```
+>
+> 摘自：阮一峰的[Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)
 
 ## 如何使用Babel
 
