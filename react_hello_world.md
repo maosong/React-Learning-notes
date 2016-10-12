@@ -2,6 +2,8 @@
 
 我使用React的`组件`和`jsx`语法创建了经典的`Hello World!`，并通过之前的知识点`nvm`、`babel`和`webpack`进行项目创建、编译和构建，通过`webpack-dev-server`进行项目开发。
 
+[查看本文演示代码](samples/react-hello-world)
+
 ## 创建项目
 
 创建`react-hello-world`文件夹，并使用`npm init`初始化。（假设已经创建好[nvm](nvm.md)环境）
