@@ -9,7 +9,6 @@
 ```sh
 $ mkdir react-non-compile
 $ cd react-non-compile
-$ npm init
 ```
 
 ## 创建项目文件
