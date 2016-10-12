@@ -1,4 +1,4 @@
-# React - Hello World!
+# Hello World!
 
 我使用React的`组件`和`jsx`语法创建了经典的`Hello World!`，并通过之前的知识点`nvm`、`babel`和`webpack`进行项目创建、编译和构建，通过`webpack-dev-server`进行项目开发。
 
@@ -158,7 +158,7 @@ $ node_modules/.bin/webpack
 
 index.jsx和它引用的组件全部编译到dist/index.js，现在通过浏览器打开index.html看看效果吧。
 
-对于大型项目webpack支持监听模式增量编译，对开发极为方便
+对于大型项目webpack支持监听模式增量编译，对开发极为方便。
 
 ```sh
 $ node_modules/.bin/webpack --watch
