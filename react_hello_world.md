@@ -31,8 +31,8 @@ $ cnpm install --save-dev webpack
 $ cnpm install --save-dev webpack-dev-server
 
 # react相关
-$ cnpm install --save-dev react
-$ cnpm install --save-dev react-dom
+$ cnpm install --save react
+$ cnpm install --save react-dom
 ```
 
 ## 创建项目文件
