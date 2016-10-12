@@ -1,0 +1,59 @@
+# 不使用预编译
+
+这里我们使用传统js编写方式实现`Hello World!`，为实现这个目标我们需要引入`browser.js`，这个库未压缩版大概1M左右，原理是实时编译type为`text/babel`的script标签，性能影响极大，因此只适合开发环境使用。
+
+[查看本文演示代码](samples/react-non-compile)
+
+## 创建项目
+
+```sh
+$ mkdir react-non-compile
+$ cd react-non-compile
+$ npm init
+```
+
+## 创建项目文件
+
+### 1. 首页
+
+```html
+<!-- index.html -->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>React Hello World!</title>
+</head>
+
+<body>
+    <div id="myApp"></div>
+    <script src="https://staticfile.qnssl.com/react/0.14.3/react.min.js"></script>
+    <script src="https://staticfile.qnssl.com/react/0.14.3/react-dom.min.js"></script>
+    <script src="https://staticfile.qnssl.com/babel-core/5.8.34/browser.min.js"></script>
+    <script type="text/babel" src="src/index.jsx"></script>
+</body>
+
+</html>
+```
+
+### 2. 主入口
+
+```JavaScript
+// src/index.jsx
+
+class HelloWorld extends React.Component {
+    render() {
+        return (
+            <div className="HelloWorld">
+                Hello World!
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(
+    <HelloWorld/>, document.getElementById('myApp'))
+```
+
+现在通过浏览器打开index.html看看效果吧。

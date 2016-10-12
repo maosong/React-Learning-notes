@@ -17,8 +17,9 @@
 - [nvm - node版本管理工具](nvm.md)
 - [Babel - 转码器](babel.md)
 - [Webpack - 模块化管理和打包工具](webpack.md)
-- [React - Hello World!](react_hello_world.md)
-- [React - 评论框组件](react_comment_box.md)
+- [Hello World!](react_hello_world.md)
+- [不使用预编译](react_non_compile.md)
+- [评论框组件](react_comment_box.md)
 
 ## Q&A
 
