@@ -18,6 +18,7 @@
 - [Babel - 转码器](babel.md)
 - [Webpack - 模块化管理和打包工具](webpack.md)
 - [React - Hello World!](react_hello_world.md)
+- [React - 评论框组件](react_comment_box.md)
 
 ## Q&A
 
@@ -35,6 +36,7 @@
 - [入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f)
 - [webpack学习之路](https://github.com/wangning0/Autumn_Ning_Blog/blob/master/blogs/3-12/webpack.md)
 - [一小时包教会 —— webpack 入门指南](http://www.w2bc.com/Article/50764)
+- [深入 JSX](http://reactjs.cn/react/docs/jsx-in-depth-zh-CN.html)
 - [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [React 安装](http://www.runoob.com/react/react-install.html)
 - [深入理解React、Redux](http://www.jianshu.com/p/0e42799be566)
