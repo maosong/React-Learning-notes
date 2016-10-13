@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "poster": "John",
+        "content": "第一次来这里"
+    }, {
+        "id": 2,
+        "poster": "David",
+        "content": "你好！"
+    }
+]
