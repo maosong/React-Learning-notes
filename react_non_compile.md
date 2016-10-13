@@ -2,6 +2,8 @@
 
 这里我们不使用npm快速实现`Hello World!`。为实现这个目标我们需要引入`browser.js`库，它允许浏览器直接运行ES6代码，原理是实时编译type为`text/babel`的script标签，因此性能影响巨大，同时未压缩版本在1M左右，目前只适合开发环境使用。
 
+我选用[七牛开放静态文件CDN](http://www.staticfile.org)作为本次的静态资源提供商。
+
 [查看本文演示代码](samples/react-non-compile)
 
 ## 创建项目
