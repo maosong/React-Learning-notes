@@ -1,6 +1,6 @@
-# 不使用预编译
+# 不使用NPM快速实现 Hello World!
 
-这里我们使用传统js编写方式实现`Hello World!`，为实现这个目标我们需要引入`browser.js`，这个库未压缩版大概1M左右，原理是实时编译type为`text/babel`的script标签，性能影响极大，因此只适合开发环境使用。
+这里我们不使用npm快速实现`Hello World!`。为实现这个目标我们需要引入`browser.js`库，它允许浏览器直接运行ES6代码，原理是实时编译type为`text/babel`的script标签，因此性能影响巨大，同时未压缩版本在1M左右，目前只适合开发环境使用。
 
 [查看本文演示代码](samples/react-non-compile)
 

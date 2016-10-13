@@ -18,7 +18,7 @@
 - [Babel - 转码器](babel.md)
 - [Webpack - 模块化管理和打包工具](webpack.md)
 - [Hello World!](react_hello_world.md)
-- [不使用预编译](react_non_compile.md)
+- [不使用NPM快速实现 Hello World!](react_non_compile.md)
 - [评论框组件](react_comment_box.md)
 
 ## Q&A
