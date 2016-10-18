@@ -8,9 +8,11 @@
 >
 > ⚠️ 注意！本文所有命令行仅在`centos 6.5`和`ubuntu 14`和`osx`下测试通过！
 
-本文记录我在学习React过程中遇到的问题，解决方案，以及一步步如何搭建和部署React应用，涵盖nvm、babel、webpack、gulp等多个知识点。通过[在 2016 年学 JavaScript 是一种什么样的体验？](https://www.oschina.net/news/77853/how-about-learn-javascript-at-2016)可以让你了解现代前端开发结构。
+本文记录我在学习React过程中遇到的问题，解决方案，以及一步步如何搭建和部署React应用，涵盖nvm、babel、webpack等多个知识点。通过[在 2016 年学 JavaScript 是一种什么样的体验？](https://www.oschina.net/news/77853/how-about-learn-javascript-at-2016)可以让你了解现代前端开发结构。
 
 编写本文之前我阅读过阮一峰的[ECMAScript 6入门](http://es6.ruanyifeng.com/)等文章，并编写了[ES6 学习不完全笔记](https://github.com/maosong/ES6-Learning-notes)，接触Node.js和ES6仅一周时间，它们与传统js开发差距巨大，因此本文难免会有各种疏漏或错误，敬请谅解，也希望指正。
+
+有关webpack+gulp涉及静态资源发布和版本管理等方面的内容，我将开启新的学习笔记。
 
 ## 目录
 
