@@ -44,15 +44,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
-我们需要创建`~/.bash_profile`文件（如果不存在），并在尾部加入以下代码：
+我们在`NVM_DIR`上方加入nvm的淘宝镜像
 
 ```sh
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node; # nvm 加速
-alias cnpm="npm --registry=https://registry.npm.taobao.org \
---cache=$HOME/.npm/.cache/cnpm \
---disturl=https://npm.taobao.org/dist \
---userconfig=$HOME/.cnpmrc"; # cnpm 加速
-source ~/.bashrc;
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
 现在`重新打开终端`执行以下命令验证安装：
@@ -92,12 +89,16 @@ $ nvm exec 0.10.32 node app.js
 
 # Set default node version on a shell
 $ nvm alias default 0.10.32
+
+# Undo effects of `nvm` on current shell
+$ nvm deactivate
+
+# Uninstall a version
+$ nvm uninstall stable
 ```
 
-## 使用cnpm安装第三方库
-
-之前安装，我们在`~/.bash_profile`中加入淘宝`cnpm`源，现在可以像用`npm`一样使用它
+## 使用npm淘宝镜像
 
 ```sh
-$ cnpm install -g %library_name%
+$ npm config set registry https://registry.npm.taobao.org
 ```

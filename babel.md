@@ -30,19 +30,19 @@ $ npm init
 
 ```sh
 #全局安装babel转码器
-$ cnpm install --global babel-cli
+$ npm install --global babel-cli
 $ babel --help
 
 # or
 
 #本项目安装babel转码器
-$ cnpm install --save-dev babel-cli
-$ ./node_modules/.bin/babel
+$ npm install --save-dev babel-cli
+$ ./node_modules/.bin/babel --help
 
 # 转码规则
-$ cnpm install --save-dev babel-preset-es2015 #本项目安装es2015转码规则
-$ cnpm install --save-dev babel-preset-react #本项目安装react转码规则
-$ cnpm install --save-dev babel-preset-stage-2 #本项目安装ES7阶段2提案，还有0/1/3等阶段提案
+$ npm install --save-dev babel-preset-es2015 #本项目安装es2015转码规则
+$ npm install --save-dev babel-preset-react #本项目安装react转码规则
+$ npm install --save-dev babel-preset-stage-2 #本项目安装ES7阶段2提案，还有0/1/3等阶段提案
 ```
 
 ### 3. 创建配置文件

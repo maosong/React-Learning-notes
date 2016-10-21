@@ -17,9 +17,9 @@ $ npm init
 ### 2. 安装Webpack和loader
 
 ```sh
-$ cnpm install webpack --save-dev
-$ cnpm install webpack-dev-server --save-dev
-$ cnpm install css-loader style-loader --save-dev
+$ npm install webpack --save-dev
+$ npm install webpack-dev-server --save-dev
+$ npm install css-loader style-loader --save-dev
 ```
 
 ### 3. 创建项目文件
